@@ -1,0 +1,88 @@
+body{
+    font-family: poppins;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    margin: auto;
+    padding: 10px;
+    /* width: 20%;
+    height: 50%; */
+    box-shadow: black 0px 0px 12px;
+    border-radius: 12px;
+    background-color: #3a4452;
+}
+.container>.calculator>div>input{
+    display: flex;
+    /* justify-content: flex-end; */
+    margin: 20px 0px;
+    /* text-align: right; */
+    /* flex: 1; */
+    font-size: 45px;
+    box-shadow: none;
+    font-weight: 700 !important;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 50vh;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-family: poppins;
+    overflow: hidden;
+}
+.container>.calculator>.buttons>div>.colorlast{
+    background-color: rgb(216, 148, 0);
+    width: 95%;
+}
+.container>.calculator>.buttons>div>.colorlast:hover{
+    background-color: rgb(238, 163, 0);
+    transition: all 0.5s ease;
+}
+.container>.calculator>.buttons>div>.colorlast:active{
+    background-color: rgb(255, 174, 0);
+    transition: all 0.5s ease;
+}
+.container>.calculator>.buttons>div>.color{
+    background-color: rgb(216, 148, 0)
+}
+.container>.calculator>.buttons>div>.color:hover{
+    background-color: rgb(238, 163, 0);
+    transition: all 0.5s ease;
+}
+.container>.calculator>.buttons>div>.color:active{
+    background-color: rgb(255, 174, 0);
+    transition: all 0.5s ease;
+}
+.container>.calculator>.buttons>div>button{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),5px 5px 15px rgb(0, 0, 0, 0.2);
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    margin: 10px;
+    cursor: pointer;
+}
+.container>.calculator>.buttons>div>button:hover{
+    background-color: #9494944f;
+    transition: all 0.5s ease;
+}
+.container>.calculator>.buttons>div>button:active{
+    background-color: #a3a3a386;
+    transition: all 0.5s ease;
+}
